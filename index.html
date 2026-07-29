@@ -8,6 +8,12 @@
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfuFp32e_--YTmrn442uLfQIkfDMD-EGqCV2UbnRsjE27AKTg/viewform?embedded=true" width="640" height="350" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="c010bd01-d159-457c-b285-e5498eeddca4">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
   </body>
 </html>
