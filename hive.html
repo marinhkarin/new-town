@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hive</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <img src="hive.jpg" alt="Hive" usemap="#hivemap" width="1920" height="1080">
+    <map name="hivemap">
+      <area shape="rect" coords="0,0,1920,1080" alt="Hive" onclick="new Audio('bees.mp3').play()">
+    </map>
+  </body>
+
+  <script>
+    if (localStorage['bee'] === undefined) {
+      window.location.replace("tree.html");
+    }
+  </script>
+</html>
